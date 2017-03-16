@@ -1,5 +1,5 @@
 <?php
 
-echo(env('Geo'));
+echo($_ENV('Geo'));
 
 ?>
