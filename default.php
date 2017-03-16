@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="style.css" />
 <head>
   <title>shaneochotny.com - The greatest website ever!</title>
   <meta charset="UTF-8">
@@ -8,7 +9,8 @@
 <body>
 
 <?php
-    $runningGeo = ("Region: " . getenv('Geo'));
+    $runningGeo = ("Hi! You're in Azure Region: " . getenv('Geo'));
+    echo $runningGeo;
 ?>
 
 </body>
