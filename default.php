@@ -7,12 +7,14 @@
 </head>
 
 <body>
-    <img src="profilepicture.png" width="400px">
-    <h1>
-<?php
-    $runningGeo = getenv('Geo');
-    echo "Hi! You're in the <b>" . $runningGeo . "</b> Azure Region.";
-?>
+    <div style="width:400px; margin:0 auto;">
+        <img src="profilepicture.png" width="400px">
+        <h1>
+        <?php
+            $runningGeo = getenv('Geo');
+            echo "Hi! You're in the <b>" . $runningGeo . "</b> Azure Region.";
+        ?>
+    </div>
     </h1>
 </body>
 </html>
