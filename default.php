@@ -9,8 +9,8 @@
 <body>
     <h1>
 <?php
-    $runningGeo = ("Hi! You're in Azure Region: " . getenv('Geo'));
-    echo $runningGeo;
+    $runningGeo = getenv('Geo');
+    echo "Hi! You're in the " . $runningGeo . " Azure Region.";
 ?>
     </h1>
 </body>
