@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div style="width:250px; margin:0 auto;">
+    <div id="content">
         <img src="profilepicture.png" width="250px">
         <h1>
         <?php
