@@ -10,7 +10,7 @@
     <h1>
 <?php
     $runningGeo = getenv('Geo');
-    echo "Hi! You're in the " . $runningGeo . " Azure Region.";
+    echo "Hi! You're in the <b>" . $runningGeo . "</b> Azure Region.";
 ?>
     </h1>
 </body>
