@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <img src="profilepicture.png" width="400px">
     <h1>
 <?php
     $runningGeo = getenv('Geo');
