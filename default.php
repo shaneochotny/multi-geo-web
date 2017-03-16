@@ -7,8 +7,8 @@
 </head>
 
 <body>
-    <div style="width:400px; margin:0 auto;">
-        <img src="profilepicture.png" width="400px">
+    <div style="width:250px; margin:0 auto;">
+        <img src="profilepicture.png" width="250px">
         <h1>
         <?php
             $runningGeo = getenv('Geo');
