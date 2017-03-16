@@ -7,11 +7,11 @@
 </head>
 
 <body>
-
+    <h1>
 <?php
     $runningGeo = ("Hi! You're in Azure Region: " . getenv('Geo'));
     echo $runningGeo;
 ?>
-
+    </h1>
 </body>
 </html>
